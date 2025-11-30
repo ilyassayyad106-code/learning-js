@@ -1,0 +1,36 @@
+//Dates
+
+let myDate = new Date()
+
+// console.log(typeof myDate);
+
+// console.log(myDate);                           //2025-11-30T17:29:49.535Z
+// console.log(myDate.toDateString());           //Sun Nov 30 2025         in string
+// console.log(myDate.toISOString());           //2025-11-30T17:29:49.535Z in string
+// console.log(myDate.toJSON());               //2025-11-30T17:29;49.535Z in string
+// console.log(myDate.toLocaleDateString());  //11/30/2025                  ---
+// console.log(myDate.toLocaleString());     //11/30/2025, 5:29:49 PM       ---
+// console.log(myDate.toLocaleTimeString());//5:37:50 PM                    ---
+// console.log(myDate.toUTCString());      //Sun, 30 Nov 2025 17:39:19 GMT  ---
+
+let myCreatedDate = new Date(2025, 10, 30)
+console.log(myCreatedDate.toDateString()); // Sun Nov 30 2025
+
+// let myAnotherCreatedDate = new Date(2025, 10, 30, 5, 3)
+// console.log(myAnotherCreatedDate.toLocaleString()); // 11/30/2025, 5:03:00 AM
+
+let myAnotherCreatedDate = new Date("10-30-2025")
+// console.log(myAnotherCreatedDate.toLocaleString()); //10/30/2025, 12:00:00 AM
+
+let myTimeStamp = Date.now()
+// console.log(myTimeStamp);
+
+// console.log(myAnotherCreatedDate.getTime());
+
+console.log(Math.floor(Date.now()/1000)); //to compair in seconds
+
+
+
+
+
+
