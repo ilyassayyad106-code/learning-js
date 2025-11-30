@@ -30,6 +30,15 @@ console.log(Math.random()*10);//in some project we need to set range.like for ma
 // but its vlue always will be betn 0 to 1. so to avoid values like 0.3630..we will add +1.
 console.log((Math.random()*10) +1);
 
+console.log(Math.floor(Math.random()*10) +1);
+
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random()*(max - min + 1)) + min);
+
+
+
 
 
 
