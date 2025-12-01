@@ -27,7 +27,32 @@ let myTimeStamp = Date.now()
 
 // console.log(myAnotherCreatedDate.getTime());
 
-console.log(Math.floor(Date.now()/1000)); //to compair in seconds
+// console.log(Math.floor(Date.now()/1000)); //to compair in seconds
+
+let newDate = new Date()
+console.log(newDate);
+console.log(newDate.getDate());
+console.log(newDate.getDay());
+console.log(newDate.getFullYear());
+console.log(newDate.getHours());
+console.log(newDate.getMilliseconds());
+console.log(newDate.getMinutes());
+console.log(newDate.getMonth() + 1);
+console.log(newDate.getSeconds());
+console.log(newDate.getTime());
+console.log(newDate);
+
+let calender = new Date();
+console.log(
+calender.toLocaleString(`en-US`, {
+       weekday: "long" ,   // we can get all properties and customization by pressing "ctrl + space"
+       year: "numeric",
+       month:"long",
+       day:"numeric"           
+}) 
+);
+
+
 
 
 
