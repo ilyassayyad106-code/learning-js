@@ -1,4 +1,5 @@
 
+
 //Singleton:
 
 const user = new Object() //singleton object
@@ -60,13 +61,35 @@ const users = [
 
 users[1].email
 
-console.log(user);
-console.log(Object.keys(user)); //to get keys
-console.log(Object.values(user)); // to get values
-console.log(Object.entries(user)); //evry key value will be get in array.[ key, value]
-console.log(user.hasOwnProperty(`isLoggedIn`)); //to check if it has property or not(boolean)
-console.log(user.hasOwnProperty(`email`));
+// console.log(user);
+// console.log(Object.keys(user)); //to get keys
+// console.log(Object.values(user)); // to get values
+// console.log(Object.entries(user)); //evry key value will be get in array.[ key, value]
+// console.log(user.hasOwnProperty(`isLoggedIn`)); //to check if it has property or not(boolean)
+// console.log(user.hasOwnProperty(`email`));
 
+
+
+//Destructuring:
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// console.log(course.courseInstructor);
+
+//destructuring: 
+// const {courseInstructor} = course
+// // console.log(courseInstructor);
+
+const {courseInstructor: instuctor} = course // we can destrucure the name as we want
+console.log(instuctor);
+
+
+
+// API'S:
 
 
 
