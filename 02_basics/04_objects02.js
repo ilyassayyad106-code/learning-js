@@ -91,6 +91,19 @@ console.log(instuctor);
 
 // API'S:
 
+// {
+//     "name":"ilyas",
+//     "coursename":"js in hindi"
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+
+]
+
 
 
 
