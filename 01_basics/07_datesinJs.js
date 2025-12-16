@@ -53,6 +53,39 @@ calender.toLocaleString(`en-US`, {
 );
 
 
+// getter methods ...
+
+let getter_methods = new Date();
+console.log(getter_methods.getFullYear()); //2025
+console.log(getter_methods.getMonth());  // 11 (dec)
+console.log(getter_methods.getDate());
+console.log(getter_methods.getDay());
+console.log(getter_methods.getHours());
+console.log(getter_methods.getMinutes());
+console.log(getter_methods.getSeconds());
+
+//date formattig methods:
+
+console.log(getter_methods.toDateString());
+console.log(getter_methods.toDateString());
+console.log(getter_methods.toLocaleString());
+console.log(getter_methods.toLocaleDateString());
+console.log(getter_methods.toLocaleTimeString());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
