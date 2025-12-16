@@ -1,24 +1,24 @@
 // array
 
-const myArr = [0, 1, 2, 3, 4, 5, "ilyas"]
-// console.log(myArr[1]);
+const myArr = [0, 1, "y", 3, 4, 5, "ilyas"]
+console.log(myArr[2]);
 
-// Array methods
+//Array methods
 
-// myArr.push(4)
-// myArr.push(7)
-// myArr.pop()
+myArr.push(12)
+myArr.push(7)
+myArr.pop(1)
 
-// myArr.unshift(9)  // add new value at start
-// myArr.shift()    // remove first value 
+myArr.unshift(9)  // add new value at start
+myArr.shift()    // remove first value 
 
-// console.log(myArr.includes(9)); // it'll check if we have this value in our arr.in boolean
-// console.log(myArr.indexOf(4)); //it'll show in which index asked value is.is its not -1.
+console.log(myArr.includes(9)); // it'll check if we have this value in our arr.in boolean
+console.log(myArr.indexOf(4)); //it'll show in which index asked value is.is its not -1.
 
-// const newArr = myArr.join() // our arr will be changed in string and binded it.
+const newArr = myArr.join() // our arr will be changed in string and binded it.
 
-// console.log(myArr);  // [0, 1, 2, 3, 4, 5, `ilyas`]
-// console.log(newArr);//  0,1,2,3,4,5,ilyas
+console.log(myArr);  // [0, 1, 2, 3, 4, 5, `ilyas`]
+console.log(newArr);//  0,1,2,3,4,5,ilyas
 
 // Slice , Splice
 
