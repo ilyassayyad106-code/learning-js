@@ -33,3 +33,10 @@ const myna2 = myArr.splice(1,3)  // splice manupulate original arr
 console.log("c", myArr);
 
 console.log("splice", myna2);
+
+//-----
+
+let arr=[ 1,2,3,4]
+console.log(arr.slice(1,4))
+
+
