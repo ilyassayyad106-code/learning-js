@@ -102,3 +102,54 @@ function addTwoNumbers(number1, number2){//when we create defn.of functions,(xyz
   // console.log(city);     //ALLOWED
   // console.log(country); //error
   
+
+  // ... rest operator:
+
+  function calculateCartPrice(...num1){
+    return num1
+  }
+
+  console.log(calculateCartPrice(200, 400, 500, 2000));
+
+  //Imp. for interview:
+
+  function calculateCartPrice2(val1,val2, ...num1){
+    return num1
+  }
+
+  console.log(calculateCartPrice2(200, 400, 500, 2000)); 
+  // output will be => [500, 2000] cause 200 goes in val1 and 400 in val2
+
+  //Object in function: 
+
+  const user ={
+    name: "ilyas",
+    price: 1999
+  }
+
+  function handleobject(anyobject){
+    console.log(`name is ${anyobject.name} and price is ${anyobject.price}`);
+    
+  }
+
+  handleobject(user)
+
+     //OR we can pass object in direct function argument
+
+  handleobject({
+    name: "umar",
+    price: 2999
+  })
+
+
+  // array in function:
+
+  const arr = [200, 300, 400, 500]
+
+  function returnSecval(getarr){
+    return getarr[2]
+  }
+  console.log(returnSecval(arr));
+  
+  
+  
