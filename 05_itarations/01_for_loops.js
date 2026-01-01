@@ -40,3 +40,27 @@ for (let index = 0; index < myArr.length; index++) {
     
     
 }
+
+//break and continue:
+
+  // we will stop the code using break,
+
+  for(let index=1; index<=10;index++){
+    if(index==5){
+        console.log(`5 detected`);
+        break
+    }
+        console.log(`value of index is ${index}`);
+        
+  }
+
+// we will use continue to skip that one condition
+
+  for(let j=1; j<=10;j++){
+    if(j==5){
+        console.log(`5 detected`);
+        continue
+    }
+        console.log(`value of index is ${j}`);
+        
+  }
