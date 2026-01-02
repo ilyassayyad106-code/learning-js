@@ -5,3 +5,20 @@ for (const num of arr) {
     console.log(num);
     
     }
+
+const greetings = "hello world!"    
+for (const greet of greetings) {
+    console.log(`each char is ${greet}`);
+    
+    
+}
+
+//maps:
+
+const map = new Map()
+map.set(`IN`, "India")
+map.set(`USA`, "United States Of America")
+map.set(`Fr`, "France")
+map.set(`IN`, "India") //map is known for print unique values, if we try to print india again it wont work
+
+console.log(map);
